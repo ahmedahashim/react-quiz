@@ -8,8 +8,16 @@
  * with the text "The mane is the most recognisable feature of the species"
  */
 
-import React from "react";
+import React, {Component} from "react";
 
-const LionsExhibit = () => null;
+class Lion extends Component {
+render(){
+    return <article className='lion'>
+        <h2>Lion</h2>
+        <p>The mane is the most recognisable feature of the species</p>
+    </article>
+}
+   
+}
 
-export default LionsExhibit;
+export default Lion;
